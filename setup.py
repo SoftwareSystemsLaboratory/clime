@@ -1,14 +1,14 @@
 from setuptools import setup
-from ssl_metrics_MODULE_NAME import version
+from ssl_metrics import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ssl-metrics-MODULE-NAME",
-    packages=["ssl_metrics_MODULE_NAME"],
+    name="ssl-metrics",
+    packages=["ssl_metrics"],
     version=version.version(),
-    description="SSL Metrics - SHORT DESCRIPTION",
+    description="SSL Metrics - Helper Project to Install All SSL Metrics Projects",
     author="Software and Systems Laboratory - Loyola University Chicago",
     author_email="ssl-metrics@ssl.luc.edu",
     license="BSD",
@@ -16,8 +16,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://ssl.cs.luc.edu/projects/metricsDashboard",
     project_urls={
-        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-REPOSITORY-NAME/issues",
-        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-REPOSITORY-NAME",
+        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics/issues",
+        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics",
     },
     keywords=["git", 
               "github", 
@@ -47,12 +47,8 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-    # ADD ME
+        "ssl-metrics-github-issues",
+        "ssl-metrics-git-commits-loc",
     ],
-    entry_points={
-        "console_scripts": [
-            "ssl-metrics-MODULE-NAME-collect = ssl_metrics_MODULE_NAME.FILENAME:main",
-            "ssl-metrics-MODULE-NAME-graph = ssl_metrics_MODULE_NAME.create_graph:main",
-        ]
-    },
+    entry_points={},
 )
