@@ -1,4 +1,5 @@
 from setuptools import setup
+
 from ssl_metrics import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -19,23 +20,23 @@ setup(
         "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics/issues",
         "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics",
     },
-    keywords=["git", 
-              "github", 
-              "software engineering", 
-              "metrics", 
-              "software systems laboratory", 
-              "ssl",
-              "loyola", 
-              "loyola university chicago", 
-              "luc",
-             ],
+    keywords=[
+        "git",
+        "github",
+        "software engineering",
+        "metrics",
+        "software systems laboratory",
+        "ssl",
+        "loyola",
+        "loyola university chicago",
+        "luc",
+    ],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
-        "Programming Language :: Python"
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python" "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3 :: Only",
         "Topic :: Software Development",
