@@ -1,66 +1,30 @@
-# SSL Metrics Template Python Repository
+# SSL Metrics
 
-> Template Python repository for the ssl-metrics project
+> Helper package that will install all `ssl-metrics` packages at once
 
 ## Table of Contents
 
-- [SSL Metrics Template Python Repository](#ssl-metrics-template-python-repository)
+- [SSL Metrics](#ssl-metrics)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
-  - [What Files Need to be Changed?](#what-files-need-to-be-changed)
-    - [DO NOT CHANGE THESE FILES](#do-not-change-these-files)
-  - [What Needs to be Changed in the Project?](#what-needs-to-be-changed-in-the-project)
-    - [About Section](#about-section)
-    - [Settings](#settings)
-      - [Features](#features)
-      - [Actions](#actions)
+  - [Included Projects](#included-projects)
+  - [How to Install](#how-to-install)
+    - [From pip](#from-pip)
 
 ## About
 
-This is a mock project containing the base files and project structure for an *ssl-metrics Python 3.9 + project*.
+This project is simply a wrapper/ helper program that installs all of the other `ssl-metrics` projects.
 
-## What Files Need to be Changed?
+## Included Projects
 
-Every file (with the exception of the files listed below) need to have some change done to them. It should be obvious once each file is looked at.
+- [ssl-metrics-github-issues](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issues)
+- [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
 
-However, these files would have to change anyways. So consider it a task instead of a chore 😊!
+## How to Install
 
-### DO NOT CHANGE THESE FILES
+### From pip
 
-- Any `.gitkeep` file
-- [LICENSE](LICENSE)
-- [\_\_init__.py](ssl_metrics_MODULE_NAME/__init__.py)
-- [.github/workflows/pypi.yml](.github/workflows/pypi.yml)
-
-## What Needs to be Changed in the Project?
-
-### About Section
-
-- **Description** needs to match the description in [README.md](README.md)
-- **Website** needs to point to: [`https://ssl.cs.luc.edu/projects/metricsDashboard`](https://ssl.cs.luc.edu/projects/metricsDashboard)
-- **Topics** needs to contain *in this order*
-  - git
-  - github
-  - metrics
-  - python
-  - software-engineering
-- **Topics** can contain other related topics after *software-engineering*
-- **Select**:
-  - Releases
-- **Deselect**:
-  - Packages
-  - Environments
-
-### Settings
-
-#### Features
-
-- **Deselect**:
-  - Wikis
-  - Restric editing to users in teams with push access only
-  - Projects
-
-#### Actions
-
-- **Select**:
-  - Allow all actions
+1. Install `Python 3.9.6 +`
+2. (Recommended) Create a *virtual environment* with `python3.9 -m venv env` and *activate* it
+3. Run `pip install ssl-metrics`
+4. To run any of the installed packages, see their specific documentation pages for more information
