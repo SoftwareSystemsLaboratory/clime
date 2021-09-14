@@ -27,3 +27,4 @@ This project is simply a wrapper/ helper program that installs all of the other 
 1. Install `Python 3.9.6 +`
 2. (Recommended) Create a *virtual environment* with `python3.9 -m venv env` and *activate* it
 3. Run `pip install ssl-metrics`
+4. To run any of the installed packages, see their specific documentation pages for more information
