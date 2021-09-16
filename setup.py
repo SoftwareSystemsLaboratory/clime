@@ -1,13 +1,13 @@
 from setuptools import setup
 
-from ssl_metrics import version
+from ssl_metrics_meta import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ssl-metrics",
-    packages=["ssl_metrics"],
+    name="ssl-metrics-meta",
+    packages=["ssl_metrics_meta"],
     version=version.version(),
     description="SSL Metrics - Helper Project to Install All SSL Metrics Projects",
     author="Software and Systems Laboratory - Loyola University Chicago",
@@ -17,8 +17,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://ssl.cs.luc.edu/projects/metricsDashboard",
     project_urls={
-        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics/issues",
-        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics",
+        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-meta/issues",
+        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-meta",
     },
     keywords=[
         "git",
