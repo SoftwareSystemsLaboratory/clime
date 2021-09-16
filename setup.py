@@ -17,8 +17,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://ssl.cs.luc.edu/projects/metricsDashboard",
     project_urls={
-        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-meta/issues",
-        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-meta",
+        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics/issues",
+        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics",
     },
     keywords=[
         "git",
