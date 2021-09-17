@@ -21,6 +21,7 @@ This project is simply a wrapper/ helper program that installs all of the other 
 
 - [ssl-metrics-github-issues](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issues)
 - [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
+- [ssl-metrics-json-converter](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-json-converter)
 
 ## How to Install
 

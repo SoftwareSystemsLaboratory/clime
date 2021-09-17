@@ -51,6 +51,7 @@ setup(
     install_requires=[
         "ssl-metrics-github-issues",
         "ssl-metrics-git-commits-loc",
+        "ssl-metrics-json-converter"
     ],
     entry_points={},
 )
