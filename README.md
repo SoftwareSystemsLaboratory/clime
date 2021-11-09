@@ -2,23 +2,15 @@
 
 > Helper package that will install all `ssl-metrics` packages at once
 
-[![Publish to PyPi](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/pypi.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/pypi.yml)
-
-## Table of Contents
-
-- [SSL Metrics](#ssl-metrics)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Included Projects](#included-projects)
-  - [How to Install](#how-to-install)
-    - [From pip](#from-pip)
-
 ## About
 
 This project is simply a wrapper/ helper program that installs all of the other `ssl-metrics` projects.
 
 ## Included Projects
 
+- [ssl-metrics-badges](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges)
+- [ssl-metrics-git-bus-factor](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-bus-factor)
+- [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
 - [ssl-metrics-github-issues](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issues)
 - [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
 - [ssl-metrics-json-converter](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-json-converter)
