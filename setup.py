@@ -49,8 +49,9 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        "ssl-metrics-github-issues",
+        "ssl-metrics-git-bus-factor",
         "ssl-metrics-git-commits-loc",
+        "ssl-metrics-github-issues",
         "ssl-metrics-json-converter",
     ],
     entry_points={},
