@@ -1,13 +1,13 @@
 from setuptools import setup
 
-from ssl_metrics import version
+from ssl_metrics_meta import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ssl-metrics",
-    packages=["ssl_metrics"],
+    name="ssl-metrics-meta",
+    packages=["ssl_metrics_meta"],
     version=version.version(),
     description="SSL Metrics - Helper Project to Install All SSL Metrics Projects",
     author="Software and Systems Laboratory - Loyola University Chicago",
@@ -42,7 +42,6 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
         "Topic :: Software Development",
         "Topic :: Scientific/Engineering",
-        "Operating System :: Microsoft :: Windows",
         "Operating System :: POSIX",
         "Operating System :: Unix",
         "Operating System :: MacOS",
