@@ -11,6 +11,7 @@ This project is simply a wrapper/ helper program that installs all of the other 
 - [ssl-metrics-badges](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges)
 - [ssl-metrics-git-bus-factor](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-bus-factor)
 - [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
+- [ssl-metrics-git-productivity](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-productivity)
 - [ssl-metrics-github-issues](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issues)
 - [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
 - [ssl-metrics-json-converter](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-json-converter)
