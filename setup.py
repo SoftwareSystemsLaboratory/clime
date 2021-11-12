@@ -51,6 +51,7 @@ setup(
         "ssl-metrics-badges",
         "ssl-metrics-git-bus-factor",
         "ssl-metrics-git-commits-loc",
+        "ssl-metrics-git-productivity",
         "ssl-metrics-github-issues",
         "ssl-metrics-json-converter",
     ],
