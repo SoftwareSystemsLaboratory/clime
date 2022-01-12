@@ -2,9 +2,11 @@
 
 > Helper package that will install all `ssl-metrics` packages at once
 
+[![Release to PyPi, GitHub, and Zenodo](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml)
+
 ## About
 
-This project is simply a wrapper/ helper program that installs all of the other `ssl-metrics` projects.
+This project is simply a wrapper that installs all of the other `SoftwareSystemsLaboratory/ssl-metrics` projects.
 
 ## Included Projects
 
@@ -16,11 +18,14 @@ This project is simply a wrapper/ helper program that installs all of the other 
 - [ssl-metrics-git-commits-loc](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
 - [ssl-metrics-json-converter](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-json-converter)
 
+## Getting Help
+
+For getting help or viewing documentation of an installed program, reference it's GitHub project page
+or run `PROGRAM-NAME --help` to get a list of command line options.  
+
 ## How to Install
 
 ### From pip
 
 1. Install `Python 3.9.6 +`
-2. (Recommended) Create a *virtual environment* with `python3.9 -m venv env` and *activate* it
-3. Run `pip install ssl-metrics-meta`
-4. To run any of the installed packages, see their specific documentation pages for more information
+2. `pip install ssl-metrics-meta`
