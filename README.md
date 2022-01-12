@@ -8,7 +8,7 @@
 
 This project is simply a wrapper that installs all of the other `SoftwareSystemsLaboratory/ssl-metrics` projects.
 
-## Included Projects
+### Installed Projects
 
 - [ssl-metrics-badges](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges)
 - [ssl-metrics-git-bus-factor](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-bus-factor)
