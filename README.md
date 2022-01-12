@@ -1,6 +1,6 @@
 # SSL Metrics
 
-> Helper package that will install all `ssl-metrics` packages at once
+> Helper package that will install all `SoftwareSystemsLaboratory/ssl-metrics` packages at once
 
 [![Release to PyPi, GitHub, and Zenodo](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml)
 
