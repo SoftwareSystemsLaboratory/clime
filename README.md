@@ -3,7 +3,7 @@
 > A helper package to install all Software Systems Laboratory Metrics tools
 
 ![[https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)
-![[https://img.shields.io/badge/DOI-Example-red](https://img.shields.io/badge/DOI-Example-red)](https://img.shields.io/badge/DOI-Example-red)
+[![DOI](https://zenodo.org/badge/406268474.svg)](https://zenodo.org/badge/latestdoi/406268474)
 [![Release Project](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml)
 ![[https://img.shields.io/badge/license-BSD--3-yellow](https://img.shields.io/badge/license-BSD--3-yellow)](https://img.shields.io/badge/license-BSD--3-yellow)
 
