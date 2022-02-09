@@ -57,12 +57,15 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        "ssl-metrics-badges",
         "ssl-metrics-git-bus-factor",
         "ssl-metrics-git-commits-loc",
         "ssl-metrics-git-productivity",
         "ssl-metrics-github-issues",
+        "ssl-metrics-github-issue-density",
+        "ssl-metrics-github-issue-spoilage",
+        "ssl-metrics-github-repository-searcher",
         "ssl-metrics-json-converter",
+        "ssl-metrics-badges",
     ],
     entry_points={},
 )
