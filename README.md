@@ -15,7 +15,6 @@
   - [Developer Tooling](#developer-tooling)
     - [Operating System](#operating-system)
     - [Shell Software](#shell-software)
-    - [Python Software](#python-software)
   - [Bundled Projects](#bundled-projects)
   - [How To Use](#how-to-use)
 
@@ -39,21 +38,6 @@ It is recomendded to develop on Mac OS or Linux. However, if you are on a Window
 
 - `git`
 - `wc`
-
-### Python Software
-
-> The software listed in this section is meant for developing tools
-
-All listed Python software assumes that you have downloaded and installed **Python 3.9.6** or greater.
-
-- `black`
-- `build`
-- `isort`
-- `pylint`
-
-You can install all of the Python software with this one-liner:
-
-`pip install --upgrade black build isort pip pylint`
 
 ## Bundled Projects
 
