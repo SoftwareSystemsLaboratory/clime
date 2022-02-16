@@ -1,0 +1,88 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SoftwareSystemsLaboratory/ssl-metrics
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: George
+    family-names: Thiruvathukal
+    email: gkt@cs.luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0002-0452-5571'
+  - given-names: Matt
+    family-names: Hyatt
+    email: mhyatt@luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0002-6356-6832'
+  - given-names: Amy
+    family-names: Kuhl
+    email: akuhl@luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0001-7586-7408'
+  - given-names: Jacob
+    family-names: Palmer
+    email: jpalmer3@luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0003-4586-5369'
+  - orcid: 'https://orcid.org/0000-0002-9587-3722'
+    given-names: Rohan
+    family-names: Sethi
+    email: rsethi@luc.edu
+    affiliation: Loyola University Chicago
+  - given-names: Ethan
+    family-names: Stoneman
+    email: estoneman@luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0001-7702-8261'
+  - given-names: Nicholas
+    family-names: Synovic
+    email: nsynovic@luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0003-0413-4594'
+  - given-names: Sohini
+    family-names: Thota
+    email: sthota@luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0002-3496-8867'
+  - given-names: Neil
+    family-names: Klingensmith
+    email: neil@cs.luc.edu
+    affiliation: Loyola University Chicago
+    orcid: 'https://orcid.org/0000-0003-4047-5070'
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/SoftwareSystemsLaboratory/ssl-metrics/tree/0.8
+  - type: doi
+    value: 10.5281/zenodo.6025973
+  - type: url
+    value: 'https://doi.org/10.5281/zenodo.6025973'
+keywords:
+  - bus factor
+  - commits
+  - engineering
+  - git
+  - github
+  - issue density
+  - issues
+  - kloc
+  - loyola
+  - loyola university chicago
+  - luc
+  - mining
+  - metrics
+  - repository
+  - repository mining
+  - simple
+  - software
+  - software engineering
+  - software metrics
+  - software systems laboratory
+  - ssl
+license: BSD-3-Clause
+version: '0.8'
+date-released: '2022-02-09'
