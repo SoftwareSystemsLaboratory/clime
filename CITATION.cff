@@ -1,14 +1,54 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Bot"
-  given-names: "Hew"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "My Research Software"
-version: 2.0.4
-doi: 10.5281/zenodo.1234
-date-released: 2017-12-18
-url: "https://github.com/github/linguist"
+- given-names: George
+  family-names: Thiruvathukal
+  email: gkt@cs.luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0002-0452-5571'
+- given-names: Matt
+  family-names: Hyatt
+  email: mhyatt@luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0002-6356-6832'
+- given-names: Amy
+  family-names: Kuhl
+  email: akuhl@luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0001-7586-7408'
+- given-names: Jacob
+  family-names: Palmer
+  email: jpalmer3@luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0003-4586-5369'
+- orcid: 'https://orcid.org/0000-0002-9587-3722'
+  given-names: Rohan
+  family-names: Sethi
+  email: rsethi@luc.edu
+  affiliation: Loyola University Chicago
+- given-names: Ethan
+  family-names: Stoneman
+  email: estoneman@luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0001-7702-8261'
+- given-names: Nicholas
+  family-names: Synovic
+  email: nsynovic@luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0003-0413-4594'
+- given-names: Sohini
+  family-names: Thota
+  email: sthota@luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0002-3496-8867'
+- given-names: Neil
+  family-names: Klingensmith
+  email: neil@cs.luc.edu
+  affiliation: Loyola University Chicago
+  orcid: 'https://orcid.org/0000-0003-4047-5070'
+  
+title: "SoftwareSystemsLaboratory/ssl-metrics"
+version: 0.8
+doi: 10.5281/zenodo.6025973
+date-released: 2022-02-16
+url: "https://github.com/SoftwareSystemsLaboratory/ssl-metrics"
