@@ -46,7 +46,7 @@ The following software **is required** to run the tools:
 - `python 3.9.6` or newer
 - `sloccount`
 
-The following software **is optional** to runthe tools:
+The following software **is optional** to run the tools:
 
 - `jq`
 - `parallel`
