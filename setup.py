@@ -1,15 +1,15 @@
 from setuptools import setup
 
-from ssl_metrics_meta import version
+from clime_metrics import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ssl-metrics-meta",
-    packages=["ssl_metrics_meta"],
+    name="clime-metrics",
+    packages=["clime_metrics"],
     version=version.version(),
-    description="SSL Metrics - Meta package to install all SoftwareSystemsLaboratory/ssl-metrics packages at once",
+    description="SSL Metrics - Meta package to install all SoftwareSystemsLaboratory/clime-* packages at once",
     author="Software and Systems Laboratory - Loyola University Chicago",
     author_email="ssl-metrics@ssl.luc.edu",
     license="BSD",
@@ -17,8 +17,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://ssl.cs.luc.edu/projects/metricsDashboard",
     project_urls={
-        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics/issues",
-        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics",
+        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/clime-metrics/issues",
+        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/clime-metrics",
     },
     keywords=[
         "commits",
@@ -57,15 +57,15 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        "ssl-metrics-git-bus-factor",
-        "ssl-metrics-git-commits-loc",
-        "ssl-metrics-git-productivity",
-        "ssl-metrics-github-issues",
-        "ssl-metrics-github-issue-density",
-        "ssl-metrics-github-issue-spoilage",
-        "ssl-metrics-github-repository-searcher",
-        "ssl-metrics-json-converter",
-        "ssl-metrics-badges",
+        "clime-git-bus-factor",
+        "clime-git-commits-loc",
+        "clime-git-productivity",
+        "clime-github-issues",
+        "clime-github-issue-density",
+        "clime-github-issue-spoilage",
+        "clime-github-repository-searcher",
+        "clime-json-converter",
+        "clime-badges",
     ],
     entry_points={},
 )

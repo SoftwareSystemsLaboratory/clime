@@ -46,9 +46,9 @@ authors:
   email: neil@cs.luc.edu
   affiliation: Loyola University Chicago
   orcid: 'https://orcid.org/0000-0003-4047-5070'
-  
-title: "SoftwareSystemsLaboratory/ssl-metrics"
+
+title: "SoftwareSystemsLaboratory/clime-metrics"
 version: 0.8
 doi: 10.5281/zenodo.6025973
 date-released: 2022-02-09
-url: "https://github.com/SoftwareSystemsLaboratory/ssl-metrics"
+url: "https://github.com/SoftwareSystemsLaboratory/clime-metrics"
