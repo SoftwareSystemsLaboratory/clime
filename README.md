@@ -1,62 +1,67 @@
-# Software Systems Laboratory Metrics Project
+# CLIME: Command Line Metrics Tool
 
-> A helper package to install all Software Systems Laboratory Metrics tools
+> A complete installer for CLIME
 
-![[https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)
-[![DOI](https://zenodo.org/badge/406268474.svg)](https://zenodo.org/badge/latestdoi/406268474)
-[![Release Project](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics/actions/workflows/release.yml)
-![[https://img.shields.io/badge/license-BSD--3-yellow](https://img.shields.io/badge/license-BSD--3-yellow)](https://img.shields.io/badge/license-BSD--3-yellow)
+<!-- Add in badges from Zenodo -->
+<!-- Add in badges from GH Actions -->
+<!-- Add in badges from Pypi -->
 
 ## Table of Contents
 
-- [Software Systems Laboratory Metrics Project](#software-systems-laboratory-metrics-project)
+- [CLIME: Command Line Metrics Tool](#clime-command-line-metrics-tool)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
+    - [Licensing](#licensing)
   - [Developer Tooling](#developer-tooling)
     - [Operating System](#operating-system)
     - [Shell Software](#shell-software)
   - [Bundled Projects](#bundled-projects)
-  - [How To Use](#how-to-use)
 
 ## About
 
-The Software Systems Laboratory (SSL) Metrics Project is a collection of `python` tools that can be used on any Git and/or GitHub to generate longitudinal graphs of classical metrics. They can also be modified by outside teams or individuals for usage of their own personal projects.
+The Software Systems Laboratory (SSL) CLIME project is a collection of `python` tools that can be used on any Git repository to generate longitudinal graphs of classical process metrics.
+
+You can install the entirety of the CLIME project from Pypi with `pip install --upgrade pip clime-metrics`.
+
+### Licensing
+
+These tools can be modified by outside teams or individuals for usage of their own personal projects.
 
 This project is licensed under the BSD-3-Clause. See the [LICENSE](LICENSE) for more information.
 
 ## Developer Tooling
 
-To maximize the utility of this project and the greater SSL Metrics project, the following software packages are **required**:
+To maximize the utility of this project and the greater SSL CLIME project, the following dependencies are **required**:
 
 ### Operating System
 
-All tools developed for the greater SSL Metrics project **must target** Mac OS and Linux. SSL Metrics software is not supported or recommended to run on Windows *but can be modified to do so at your own risk*.
-
-It is recomendded to develop on Mac OS or Linux. However, if you are on a Windows machine, you can use WSL to develop as well.
+All tools developed for the greater SSL CLIME project **target** Mac OS and Linux. CLIME is not supported or recommended to run on Windows *but can be modified to do so at your own risk*.
 
 ### Shell Software
 
+The following software **is required** to run the tools:
+
+- `cloc`
 - `git`
-- `wc`
+- `python 3.9.6` or newer
+- `sloccount`
+
+The following software **is optional** to runthe tools:
+
+- `jq`
+- `parallel`
+- `Parallel::ForkManager` Perl package
 
 ## Bundled Projects
 
 This projects bundles the following `python` projects into one `pip` installable:
 
-- [Git Bus Factor](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-bus-factor)
-- [Git Commits LOC](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-commits-loc)
-- [Git Productivity](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-git-productivity)
-- [GitHub Issues](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issues)
-- [GitHub Issue Density](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issue-density)
-- [GitHub Issue Spoilage](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-issue-spoilage)
-- [GitHub Repository Searcher](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-github-repository-searcher)
-- [JSON Converter](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-json-converter)
-- [Metric Badges](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-badges)
-
-## How To Use
-
-For informaton on how to use each of the respective projects, see their respective GitHub pages.
-
-You can install all of the Python software with this one-liner:
-
-`pip install --upgrade pip ssl-metrics-meta`
+- [CLIME Bus Factor](https://github.com/SoftwareSystemsLaboratory/clime-git-bus-factor)
+- [CLIME Commits LOC](https://github.com/SoftwareSystemsLaboratory/clime-git-commits-loc)
+- [CLIME Productivity](https://github.com/SoftwareSystemsLaboratory/clime-git-productivity)
+- [CLIME Issues](https://github.com/SoftwareSystemsLaboratory/clime-github-issues)
+- [CLIME Issue Density](https://github.com/SoftwareSystemsLaboratory/clime-github-issue-density)
+- [CLIME Issue Spoilage](https://github.com/SoftwareSystemsLaboratory/clime-github-issue-spoilage)
+- [CLIME Repository Searcher](https://github.com/SoftwareSystemsLaboratory/clime-github-repository-searcher)
+- [CLIME JSON Converter](https://github.com/SoftwareSystemsLaboratory/clime-json-converter)
+- [CLIME Badges](https://github.com/SoftwareSystemsLaboratory/clime-badges)

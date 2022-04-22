@@ -43,31 +43,10 @@
         "orcid": "0000-0002-0452-5571"
         }
     ],
-    "description": "A helper package to install all Software Systems Laboratory Metrics tools",
+    "description": "Complete installer for CLIME",
     "access_right": "open",
     "license": "BSD-3-Clause",
     "prereserve_doi": true,
     "keywords": [
-        "bus factor",
-        "commits",
-        "engineering",
-        "git",
-        "github",
-        "issue density",
-        "issues",
-        "kloc",
-        "loyola",
-        "loyola university chicago",
-        "luc",
-        "mining",
-        "metrics",
-        "repository",
-        "repository mining",
-        "simple",
-        "software",
-        "software engineering",
-        "software metrics",
-        "software systems laboratory",
-        "ssl"
     ]
 }
