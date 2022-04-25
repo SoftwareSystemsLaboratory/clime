@@ -62,7 +62,7 @@ setup(
         "ssl",
         "thousands of lines of code",
         "tool",
-        "vcs"
+        "vcs",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -81,15 +81,15 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        "clime-git-bus-factor",
-        "clime-commits",
         "clime-productivity",
-        "clime-issues",
-        "clime-issue-density",
-        "clime-issue-spoilage",
-        "clime-gh-repository-searcher",
-        "clime-json-converter",
+        "clime-commits",
         "clime-badges",
+        "clime-issues",
+        "clime-bus-factor",
+        "clime-json-converter",
+        "clime-issue-spoilage",
+        "clime-issue-density",
+        "clime-repository-searcher",
     ],
     entry_points={},
 )
