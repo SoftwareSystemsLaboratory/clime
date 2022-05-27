@@ -1,13 +1,13 @@
-# CLIME: Command Line Metrics Tool
+# PRIME: Command Line Metrics Tool
 
-> A complete installer for CLIME
+> A complete installer for PRIME (Transitioning from CLIME)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6477789.svg)](https://doi.org/10.5281/zenodo.6477789)
 [![Release Project](https://github.com/SoftwareSystemsLaboratory/clime/actions/workflows/release.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/clime/actions/workflows/release.yml)
 
 ## Table of Contents
 
-- [CLIME: Command Line Metrics Tool](#clime-command-line-metrics-tool)
+- [PRIME: Command Line Metrics Tool](#prime-command-line-metrics-tool)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
     - [Licensing](#licensing)
@@ -18,9 +18,9 @@
 
 ## About
 
-The Software Systems Laboratory (SSL) CLIME project is a collection of `python` tools that can be used on any Git repository to generate longitudinal graphs of classical process metrics.
+The Software Systems Laboratory (SSL) PRIME (PRocess Internal Metrics) project is a collection of `python` tools that can be used on any Git repository to generate longitudinal graphs of classical process metrics.
 
-You can install the entirety of the CLIME project from Pypi with `pip install --upgrade pip clime-metrics`.
+You can install the entirety of the PRIME project from Pypi with `pip install --upgrade pip clime-metrics`.
 
 ### Licensing
 
@@ -30,11 +30,11 @@ This project is licensed under the BSD-3-Clause. See the [LICENSE](LICENSE) for 
 
 ## Developer Tooling
 
-To maximize the utility of this project and the greater SSL CLIME project, the following dependencies are **required**:
+To maximize the utility of this project and the greater SSL PRIME project, the following dependencies are **required**:
 
 ### Operating System
 
-All tools developed for the greater SSL CLIME project **target** Mac OS and Linux. CLIME is not supported or recommended to run on Windows *but can be modified to do so at your own risk*.
+All tools developed for the greater SSL PRIME project **target** Mac OS and Linux. PRIME is not supported or recommended to run on Windows *but can be modified to do so at your own risk*.
 
 ### Shell Software
 
@@ -55,12 +55,12 @@ The following software **is optional** to run the tools:
 
 This projects bundles the following `python` projects into one `pip` installable:
 
-- [CLIME Bus Factor](https://github.com/SoftwareSystemsLaboratory/clime-git-bus-factor)
-- [CLIME Commits LOC](https://github.com/SoftwareSystemsLaboratory/clime-git-commits-loc)
-- [CLIME Productivity](https://github.com/SoftwareSystemsLaboratory/clime-git-productivity)
-- [CLIME Issues](https://github.com/SoftwareSystemsLaboratory/clime-github-issues)
-- [CLIME Issue Density](https://github.com/SoftwareSystemsLaboratory/clime-github-issue-density)
-- [CLIME Issue Spoilage](https://github.com/SoftwareSystemsLaboratory/clime-github-issue-spoilage)
-- [CLIME Repository Searcher](https://github.com/SoftwareSystemsLaboratory/clime-github-repository-searcher)
-- [CLIME JSON Converter](https://github.com/SoftwareSystemsLaboratory/clime-json-converter)
-- [CLIME Badges](https://github.com/SoftwareSystemsLaboratory/clime-badges)
+- [PRIME Badges](https://github.com/SoftwareSystemsLaboratory/prime-badges)
+- [PRIME Bus Factor](https://github.com/SoftwareSystemsLaboratory/prime-bus-factor)
+- [PRIME Commits](https://github.com/SoftwareSystemsLaboratory/prime-commits)
+- [PRIME GitHub Repository Searcher](https://github.com/SoftwareSystemsLaboratory/prime-github-repository-searcher)
+- [PRIME Issue Density](https://github.com/SoftwareSystemsLaboratory/prime-issue-density)
+- [PRIME Issue Spoilage](https://github.com/SoftwareSystemsLaboratory/prime-issue-spoilage)
+- [PRIME Issues](https://github.com/SoftwareSystemsLaboratory/prime-issues)
+- [PIME JSON Converter](https://github.com/SoftwareSystemsLaboratory/prime-json-converter)
+- [PRIME Productivity](https://github.com/SoftwareSystemsLaboratory/prime-productivity)
