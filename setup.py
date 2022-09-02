@@ -1,15 +1,15 @@
 from setuptools import setup
 
-from clime_metrics import version
+from prime_metrics import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="clime-metrics",
-    packages=["clime_metrics"],
+    name="prime-metrics",
+    packages=["prime_metrics"],
     version=version.version(),
-    description="SSL Metrics - Meta package to install all SoftwareSystemsLaboratory/clime-* packages at once",
+    description="PRIME Metrics - Meta package to install all SoftwareSystemsLaboratory/prime-* packages at once",
     author="Software and Systems Laboratory - Loyola University Chicago",
     author_email="ssl-metrics@ssl.luc.edu",
     license="BSD",
@@ -17,8 +17,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://ssl.cs.luc.edu/projects/metricsDashboard",
     project_urls={
-        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/clime-metrics/issues",
-        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/clime-metrics",
+        "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/prime-metrics/issues",
+        "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/prime-metrics",
     },
     keywords=[
         "bugzilla",
@@ -81,15 +81,15 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        "clime-productivity",
-        "clime-commits",
-        "clime-badges",
-        "clime-issues",
-        "clime-bus-factor",
-        "clime-json-converter",
-        "clime-issue-spoilage",
-        "clime-issue-density",
-        "clime-repository-searcher",
+        "prime-productivity",
+        "prime-commits",
+        "prime-badges",
+        "prime-issues",
+        "prime-bus-factor",
+        "prime-json-converter",
+        "prime-issue-spoilage",
+        "prime-issue-density",
+        "prime-repository-searcher",
     ],
     entry_points={},
 )
